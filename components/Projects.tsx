@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Cursor } from "react-simple-typewriter";
 import Project from "./project";
-import { projectData } from "../Projectdata";
+import { projectData } from "../models/Projectdata";
 type Props = {};
 
 function Projects({}: Props) {
