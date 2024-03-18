@@ -11,10 +11,9 @@ export default function Hero({}: Props) {
     words: [
       "<Hi my name is Romain /> ",
       "Developer",
-      "Creator",
       "2D Artist",
       "2D Animator",
-      "deep understanding  lover",
+      "deep understanding lover",
     ],
     loop: true,
     delaySpeed: 2000,

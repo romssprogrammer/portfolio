@@ -26,6 +26,9 @@ function Projects({}: Props) {
             nbProject={projectData.length}
             projectImage={project.projectimage}
             projectName={project.projectName}
+            // @ts-ignore
+            tech={project.technologies[0].tech}
+            description={project.description}
           />
         ))}
       </div>

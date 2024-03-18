@@ -7,12 +7,16 @@ type Props = {
   nbProject: number;
   projectImage: string;
   projectName: string;
+  tech: string[];
+  description: string;
 };
 export default function Project({
   id,
   nbProject,
   projectImage,
   projectName,
+  tech,
+  description,
 }: Props) {
   return (
     <div className=" w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
@@ -25,18 +29,21 @@ export default function Project({
         alt={projectName}
       />
 
-      <div className="bg-slate-600 border-r">
+      <div className="bg-slate-600 border-r rounded-2xl p-4">
         <h4 className="text-4xl font-semibold text-center ">
           <span className="">
             {projectName} - project : {1 + id}/{nbProject}
           </span>
         </h4>
-        <p className=" text-lg text-center md:text-left">
-          Base on a <span className="underline">3 tiers architecture</span> with
+        <p className=" text-lg text-center ">
+          {tech}
+          <br />
+          {description}
+          {/* Base on a <span className="underline">3 tiers architecture</span> with
           a client implement in{" "}
           <span className="underline">GDscript godot engine language</span> , a
           webservice implemented in <span className="underline">java</span> and{" "}
-          <span className=" underline">MySql Db</span>
+          <span className=" underline">MySql Db</span> */}
         </p>
         <div className="bg-[#34d399]" />
       </div>

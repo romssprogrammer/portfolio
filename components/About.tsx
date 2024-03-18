@@ -37,6 +37,10 @@ function About({}: Props) {
           scare me, I take pleasure in transforming difficulty into a source of
           learning
           <br />
+          <br /> what attract me about coding is not only the fact that we solve
+          problems but the thinking process , developping skills and the
+          discipline of approching problems we develop
+          <br />
           <br /> I also worked as storyboarder and 2d animator My atypical
           experience as a artist and 2D animator in the 2D animation industry
           allowed me to develop a particular sensitivity for storytelling,
