@@ -11,6 +11,7 @@ function About({}: Props) {
       <h3 className="absolute top-24 uppercase tracking-[20px] text-[#34d399] text-2xl">
         About
         {/* <Cursor cursorColor="#bbf7d0" /> */}
+        <Cursor />
       </h3>
       {/* <motion.div></motion.div> */}
       <motion.img
