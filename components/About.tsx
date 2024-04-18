@@ -38,8 +38,8 @@ function About({}: Props) {
           a source of learning
           <br />
           <br /> what attract me about coding is not only the fact that we solve
-          problems but the thinking process , developping skills and the
-          discipline of approching problems we develop
+          problems but the thinking process, developing skills and the
+          discipline of approaching problems we develop
           <br />
           <br /> I also worked as storyboarder and 2d animator My atypical
           experience as a artist and 2D animator in the 2D animation industry
