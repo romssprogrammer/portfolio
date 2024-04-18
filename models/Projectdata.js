@@ -39,3 +39,11 @@ export const projectData = [
     technologies: [{ tech: "Godot Engine", logo: "" }],
   },
 ];
+
+const skills = {
+  html: "",
+  css: "",
+  javascript: "",
+  java: "",
+  mysql: "",
+};

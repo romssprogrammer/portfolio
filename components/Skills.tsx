@@ -17,13 +17,13 @@ function Skills({}: Props) {
         Always Need deep understanding
       </h3>
       <div className="grid grid-cols-4 gap-5">
-        <Skill image="/images/LogoHTML5.JPG" />
-        <Skill image="/images/css-3-logo.png" />
-        <Skill image="/images/js.png" />
-        <Skill image="/images/react.png" />
-        <Skill image="/images/nodejs.png" />
-        <Skill image="/images/Java.jpg" />
-        <Skill image="/images/mysql.png" />
+        <Skill image="./images/LogoHTML5.JPG" />
+        <Skill image="./images/css-3-logo.png" />
+        <Skill image="./images/js.png" />
+        <Skill image="./images/react.png" />
+        <Skill image="./images/nodejs.png" />
+        <Skill image="./images/Java.jpg" />
+        <Skill image="./images/mysql.png" />
       </div>
     </motion.div>
   );
