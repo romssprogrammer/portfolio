@@ -2,8 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  output: "export", // <=== enables static exports
-  basePath: "/portfolio",
+  // output: "export", // <=== enables static exports
+  // basePath: "/portfolio",
   // images: {
   //   unoptimized: true,
   // },

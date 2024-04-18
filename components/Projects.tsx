@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Cursor } from "react-simple-typewriter";
 import Project from "./project";
 import { projectData } from "../models/Projectdata";
+import Image from "next/image";
 type Props = {};
 
 function Projects({}: Props) {
@@ -18,7 +19,7 @@ function Projects({}: Props) {
         Projects
         <Cursor />
       </h3>
-      <div className="relative w-full  flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#34d399] scrollbar-thin">
+      <div className="relative w-full  flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#34d399] ">
         {projectData.map((project, i) => (
           <Project
             key={i}
@@ -32,6 +33,7 @@ function Projects({}: Props) {
           />
         ))}
       </div>
+
       <div className="w-full absolute top-[30%] bg-[#34d399]/10 left-0 h-[500px] -skew-y-12" />
     </motion.div>
   );

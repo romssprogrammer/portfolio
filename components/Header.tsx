@@ -30,18 +30,14 @@ export default function Header({}: Props) {
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://www.youtube.com"
+          url="https://github.com/romssprogrammer"
           fgColor="gray"
           bgColor="transparent"
         />
-        <SocialIcon
-          url="https://www.youtube.com"
-          fgColor="gray"
-          bgColor="transparent"
-        />
-        <Link href="https://www.instagram.com/romainrbas/">
+
+        {/* <Link href="https://www.instagram.com/romainrbas/">
           <span className="text-[20px]">Art experience</span>
-        </Link>
+        </Link> */}
 
         {/* <Link href='#contact'> */}
       </motion.div>
