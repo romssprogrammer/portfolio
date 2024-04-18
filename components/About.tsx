@@ -10,7 +10,7 @@ function About({}: Props) {
     <div className=" flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
       <h3 className="absolute top-24 uppercase tracking-[20px] text-[#34d399] text-2xl">
         About
-        <Cursor cursorColor="#bbf7d0" />
+        {/* <Cursor cursorColor="#bbf7d0" /> */}
       </h3>
       {/* <motion.div></motion.div> */}
       <motion.img
