@@ -33,9 +33,9 @@ function About({}: Props) {
           Start in technology world as an embeded electronic technician discover
           programation with C language.
           <br />
-          <br /> Curious and perseverant by nature, learning new things doesn't
-          scare me, I take pleasure in transforming difficulty into a source of
-          learning
+          <br /> Curious and perseverant by nature, learning new things
+          doesn&apos;t scare me, I take pleasure in transforming difficulty into
+          a source of learning
           <br />
           <br /> what attract me about coding is not only the fact that we solve
           problems but the thinking process , developping skills and the
