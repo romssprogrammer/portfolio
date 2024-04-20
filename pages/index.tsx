@@ -12,7 +12,7 @@ import Contact from "../components/Contact";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-slate-700 text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#34d399]">
+    <div className="bg-slate-700 text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-900 scrollbar-thumb-[#34d399]">
       <Head>
         <title>Romain Portfolio</title>
         {/* <link rel="stylesheet" href="styles/globals.css" /> */}

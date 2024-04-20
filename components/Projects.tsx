@@ -19,7 +19,7 @@ function Projects({}: Props) {
         Projects
         <Cursor />
       </h3>
-      <div className="relative w-full  flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#34d399]">
+      <div className="  relative w-full  flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-900 scrollbar-thumb-[#34d399]  ">
         {projectData.map((project, i) => (
           <Project
             key={i}
@@ -33,8 +33,8 @@ function Projects({}: Props) {
           />
         ))}
       </div>
-
-      <div className="w-full absolute top-[30%] bg-[#34d399]/10 left-0 h-[500px] -skew-y-12" />
+      {/* "w-full absolute top-[30%] bg-[#34d399]/10 left-0 h-[500px] -skew-y-12 */}
+      <div className="w-full absolute top-[30%] bg-[#34d399]/10 left-0 h-[500px] -skew-y-12 " />
     </motion.div>
   );
 }
