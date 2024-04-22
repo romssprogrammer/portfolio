@@ -24,11 +24,7 @@ export default function Header({}: Props) {
         className="flex flex-row items-center"
       >
         {/* social icon */}
-        <SocialIcon
-          url="https://www.youtube.com"
-          fgColor="gray"
-          bgColor="transparent"
-        />
+
         <SocialIcon
           url="https://github.com/romssprogrammer"
           fgColor="gray"
