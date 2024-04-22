@@ -34,6 +34,16 @@ export default function Header({}: Props) {
           fgColor="gray"
           bgColor="transparent"
         />
+        <SocialIcon
+          url="https://vimeo.com/manage/videos/346806059"
+          fgColor="gray"
+          bgColor="transparent"
+        />
+        <SocialIcon
+          url="https://vimeo.com/manage/videos/332557611"
+          fgColor="gray"
+          bgColor="transparent"
+        />
 
         {/* <Link href="https://www.instagram.com/romainrbas/">
           <span className="text-[20px]">Art experience</span>
