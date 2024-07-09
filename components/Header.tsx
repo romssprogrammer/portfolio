@@ -64,7 +64,7 @@ export default function Header({}: Props) {
         }}
       >
         <SocialIcon
-          url="https://www.youtube.com"
+          url=""
           network="email"
           fgColor="gray"
           bgColor="transparent"
