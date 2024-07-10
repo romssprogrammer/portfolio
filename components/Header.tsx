@@ -64,7 +64,7 @@ export default function Header({}: Props) {
         }}
       >
         <SocialIcon
-          url=""
+          url="mailto:ssb07@proton.me"
           network="email"
           fgColor="gray"
           bgColor="transparent"
