@@ -36,7 +36,7 @@ export const projectData = [
     projectName: "SynergyDico",
     description: "Vocabulary dictionnary",
     projectimage: "./images/SynergyDico.png",
-    technologies: [{ tech: ["Godot Engine", "GDscript"], logo: "" }],
+    technologies: [{ tech: ["Godot Engine", " GDscript"], logo: "" }],
   },
 ];
 
