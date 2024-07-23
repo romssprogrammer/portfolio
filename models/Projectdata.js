@@ -9,7 +9,7 @@ export const projectData = [
     projectName: "Godot Link",
     description:
       "Base on a 3 tiers architecture with a client implement in GDscript godot engine language, a webservice implemented in java and MySql Db.",
-    projectimage: "./images/godotlink.jpg",
+    projectimage: "./images/godotlinkFeature.png",
     technologies: [
       { tech: ["Godot Engine", " ,Java", " ,webservice REST API"], logo: "" },
     ],
