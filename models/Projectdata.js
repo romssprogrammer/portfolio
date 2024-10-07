@@ -2,8 +2,8 @@ export const projectData = [
   {
     projectName: "MicroPodcast",
     description: " Telegram webapp - Creation de podcast",
-    projectimage: "./images/Micropodcast",
-    technologies: [{ tech: ["nextjs", "telegram bot api"], logo: "" }],
+    projectimage: "./images/Micropodcast.png",
+    technologies: [{ tech: ["nextjs ", "telegram bot api"], logo: "" }],
   },
   {
     projectName: "AnimationStudionWise",
